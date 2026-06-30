@@ -11,22 +11,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Java
+      - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
 
-      - name: Make gradlew executable
+      - name: Grant permission to gradlew
         run: chmod +x android/gradlew
 
-      - name: Build APK
+      - name: Verify gradle files
+        run: ls -R android
+
+      - name: Build Debug APK (safer than release)
         run: |
           cd android
-          ./gradlew assembleRelease
+          ./gradlew assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: AgreyFlix-APK
-          path: android/app/build/outputs/apk/release/*.apk
+          path: android/app/build/outputs/apk/debug/*.apk
