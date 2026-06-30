@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    
+    <!-- Deep dark background circle inside vector for contrast -->
+    <path
+        android:pathData="M64,64m-64,0a64,64 0,1 1,128 0a64,64 0,1 1,-128 0"
+        android:fillColor="#0D111A"/>
+
+    <!-- Left pillar of 'A' -->
+    <path
+        android:pathData="M44,88 L58,40 L66,40 L52,88 Z"
+        android:fillColor="#DC2626"/>
+
+    <!-- Right pillar of 'A' -->
+    <path
+        android:pathData="M62,40 L70,40 L84,88 L76,88 Z"
+        android:fillColor="#EF4444"/>
+
+    <!-- Play symbol in the center crossbar of the letter 'A' -->
+    <path
+        android:pathData="M52,68 L76,68 L64,54 Z"
+        android:fillColor="#FFFFFF"/>
+
+</vector>

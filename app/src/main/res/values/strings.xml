@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AgreyFlix</string>
+    <string name="app_url">https://agrey-flix.vercel.app</string>
+    <string name="user_agent_suffix">AgreyFlixAndroidApp/1.0.0</string>
+    
+    <!-- Permission Rationales -->
+    <string name="permission_storage_title">Access Photos &amp; Media</string>
+    <string name="permission_storage_desc">AgreyFlix requires storage permission to allow you to upload profile images, save watch lists offline, and choose background stream settings.</string>
+    <string name="permission_camera_title">Camera Access</string>
+    <string name="permission_camera_desc">AgreyFlix requires camera access to allow you to take and upload fresh custom profile avatars directly from your camera.</string>
+    <string name="permission_notification_title">Enable Push Notifications</string>
+    <string name="permission_notification_desc">Stay up-to-date with new releases, trending movies, and stream quality announcements immediately on your lock screen.</string>
+    
+    <!-- Buttons -->
+    <string name="btn_allow">Allow Access</string>
+    <string name="btn_cancel">Not Now</string>
+</resources>

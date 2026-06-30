@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors matches public/manifest.json -->
+    <color name="primary">#DC2626</color>
+    <color name="primary_dark">#B91C1C</color>
+    <color name="primary_light">#EF4444</color>
+    
+    <!-- Neutral colors -->
+    <color name="background">#07090E</color>
+    <color name="surface">#0D111A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#F3F4F6</color>
+    <color name="text_secondary">#9CA3AF</color>
+</resources>
